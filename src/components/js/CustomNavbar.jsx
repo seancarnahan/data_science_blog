@@ -7,7 +7,7 @@ import './css/CustomNavbar.css';
 export default class CustomNavbar extends Component{
   render(){
     return(
-      <Navbar default collapseOnSelect>
+      <Navbar default collapseOnSelect className="main-header">
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/">Data Science Resources </Link>
@@ -16,16 +16,16 @@ export default class CustomNavbar extends Component{
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem eventKey={1} componentClass={Link} href="/" to="/" >
+            <NavItem className="main-header-text" ventKey={1} componentClass={Link} href="/" to="/" >
               Home
             </NavItem>
-            <NavItem eventKey={2} componentClass={Link} href="/" to="/about" >
+            <NavItem className="main-header-text" eventKey={2} componentClass={Link} href="/" to="/about" >
               About
             </NavItem>
-            <NavItem eventKey={3} componentClass={Link} href="/" to="/signup" >
+            <NavItem className="main-header-text" eventKey={3} componentClass={Link} href="/" to="/signup" >
               Sign Up
             </NavItem>
-            <NavItem eventKey={4} componentClass={Link} href="/" to="/createblog" >
+            <NavItem className="main-header-text" eventKey={4} componentClass={Link} href="/" to="/createblog" >
               Create
             </NavItem>
           </Nav>
