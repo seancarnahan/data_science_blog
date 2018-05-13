@@ -1,7 +1,12 @@
 import React, {Component} from 'react';
 
-import './css/CreateBlog.css';
-class CreateBlog extends Component {
+class CreateBlog extends Component{
+  constructor(props){
+    super(props);
+
+    this.state = {term : ''};
+  }
+
   render(){
     return(
       <div>
@@ -11,4 +16,4 @@ class CreateBlog extends Component {
   }
 }
 
-export default CreateBlog;
+export default CreateBlog
