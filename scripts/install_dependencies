@@ -1,2 +1,6 @@
 #!/bin/bash
 yum install -y httpd
+<<<<<<< HEAD
+=======
+
+>>>>>>> 66370f1994d10711c8f4eccc0b8881258cd98b29
